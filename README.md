@@ -32,5 +32,5 @@ We will be using the openAI gym to get the Atari games (https://gym.openai.com/)
  3. Go to rgb2ram directory, run `python3 train.py` to learn mapping between RGB and RAM
 
 ## References 
-This projct was extends the `keras-rl` repository (https://github.com/keras-rl/keras-rl), which has implemented several state-of-the art deep reinforcement learning algorithms in Python with keras. We use the Deep Q Learning (DQN) algorithm for our Transfer Learning in Atari games project.
+This project extends the `keras-rl` repository (https://github.com/keras-rl/keras-rl), which has implemented several state-of-the art deep reinforcement learning algorithms in Python with keras. We use the Deep Q Learning (DQN) algorithm for our Transfer Learning in Atari games project.
 
