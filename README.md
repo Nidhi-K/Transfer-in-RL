@@ -13,7 +13,7 @@ from one input setting to the same game with different input setting.
 Essentially we want to model a mapping between the two settings such that transferring learned knowledge is possible. 
 We will be using the openAI gym to get the Atari games (https://gym.openai.com/).
 
-![a](https://github.com/Nidhi-K/Blockchain-for-home-services/blob/master/blockchain%20workflow.png)
+![a](https://github.com/Nidhi-K/Transfer-in-RL/blob/master/outline.png)
 
 ## Installation
 
