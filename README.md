@@ -1,9 +1,9 @@
 # Transfer in Reinforcement Learning
 
-## Abstract
-In this project we attempt transfer learning between different input environments for Reinforcement Learning (RL) Agents in Atari Games. By learning a mapping from RGB screen image inputs to the Atari machine RAM input, we show that we take less than half the time to train an RL agent than on the original RGB screen input. We experiment with feed-forward neural networks, Convolutional neural networks, as well as LSTMs to learn the mappings and get a best mean squared error of 0.37% of the RAM mappings using a Convolutional LSTM. We apply trained RAM input RL agents under the RGB environments by feeding the mapped inputs to the agents. The best agent accumulates 3.29 average rewards per episode using the CNN mapping, which is 27.5% of the rewards accumulated under the RAM environments.
-
 The complete project details are in `Report.pdf`. 
+
+## Abstract
+In this project we attempt transfer learning between different input environments for Reinforcement Learning (RL) Agents in Atari Games. By learning a mapping from RGB screen image inputs to the Atari machine RAM input, we show that we take less than half the time to train an RL agent than on the original RGB screen input. We experiment with feed-forward neural networks, Convolutional neural networks, as well as LSTMs to learn the mappings and apply trained RAM input RL agents under the RGB environments by feeding the mapped inputs to the agents. 
 
 ## OpenAI Gym
 The OpenAI Gym provides a set of Atari games environments with two input settings: screen frames in the form of RGB images, and RAM (a 256 byte array containing the state of the game). 
